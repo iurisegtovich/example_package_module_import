@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-iurisegtovich",
-    version="0.0.3",
+    name="example-package-iurisegtovich",
+    version="0.0.4",
     author="Example Author",
     author_email="author@example.com",
     description="A small example package",
@@ -18,5 +18,4 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    data_files = [("", ["LICENSE"])]
 )
